@@ -1,0 +1,8 @@
+# Do not ignore our directories which are often in ~/.gitignore
+!dist
+!dist/
+!dist/*
+!dist/**/*
+
+# ignore dist backups
+dist.old.*
